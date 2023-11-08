@@ -1,0 +1,139 @@
+.mainDiv {
+  background: skyblue;
+  width: 750px;
+  justify-content: center;
+  align-items: center;
+  left: 30%;
+  position: relative;
+  height: 400px;
+}
+
+.navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #000;
+  width: 300px;
+  height: 60px;
+  position: relative;
+  left: 45%;
+}
+
+.navBarLink {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 0 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.navBar button:hover {
+  border: 1px solid #000;
+}
+
+.liDiv {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 9%;
+  list-style-type: none;
+}
+
+.liDiv .top {
+  order: -1;
+  top: 25px;
+  position: relative;
+  margin-left: 45px;
+  right: 105px;
+  border: 1px solid black;
+  height: 120px;
+  width: 120px;
+}
+
+.liDiv .bottom {
+  position: relative;
+  order: 1;
+  top: 185px;
+  margin-left: -300px;
+  right: 30px;
+  border: 1px solid black;
+  height: 120px;
+  width: 120px;
+  background: white;
+}
+
+.buyButton {
+  position: absolute;
+  left: 75px;
+  bottom: 5px;
+}
+
+p {
+  top: 45px;
+  position: relative;
+}
+
+.kundvagnP {
+  position: fixed;
+  color: black; /* Färgen på texten */
+  font-size: 12px;
+  right: 35%;
+  top: 5%;
+}
+
+.finalProducts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 60px;
+  position: relative;
+  left: 45%;
+}
+
+.productStorage {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 10%;
+  list-style-type: none;
+  top: 200%;
+  display: inline-block;
+}
+
+.betalaOchTöm {
+  position: relative;
+  top: 70%;
+  display: inline-block;
+  margin-right: 30px;
+  left: 40%;
+}
+
+.töm {
+  position: relative;
+  top: 70%;
+  left: 40%;
+}
+
+.totalPris {
+  position: absolute;
+  top: 580%;
+  left: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+.redButton {
+  background-color: grey;
+}
+
+.price {
+  color: red;
+}
+
+.productInfo {
+  padding: 5px;
+  list-style-type: none;
+}
